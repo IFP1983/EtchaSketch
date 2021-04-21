@@ -18,8 +18,3 @@ text.textContent = 'I am a blue h3';
 
 container.appendChild(text);
 
-const text = document.createElement('h3');
-text.classList.add('happy');
-text.textContent = 'I am a blue h3';
-
-container.appendChild(text);
