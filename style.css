@@ -1,6 +1,29 @@
-.happy{
-    color:blue;
+.bg-red{
+    background-color: red;
 }
-.red{
-    color:red;
-}
+
+.container {
+    background: black;
+    display: inline-block;
+    border: 5px solid black;
+  }
+  #grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 80px);
+    grid-template-rows: repeat(16, 80px);
+    grid-gap: 1px;
+  }
+  .cell {
+     /* center the cell content */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 3rem;
+    font-weight: bold;
+    background: white;
+    border: 5px solid black;
+    
+  }
+  
+  

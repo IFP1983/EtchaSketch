@@ -1,20 +1,14 @@
-const container = document.querySelector('#container');
+const gridContainer = document.querySelector("#grid-container");
 
-const content = document.createElement('div');
-content.classList.add('happy');
-content.textContent = 'This is the beginning';
-
-container.appendChild(content);
-
-const paragraph = document.createElement('p');
-paragraph.classList.add('red');
-paragraph.textContent = 'Hey I am red';
-
-container.appendChild(paragraph);
-
-const text = document.createElement('h3');
-text.classList.add('happy');
-text.textContent = 'I am a blue h3';
-
-container.appendChild(text);
-
+let numOfCells = 256;
+for(let i = 0;i<numOfCells;i++) {
+    const singleCell = document.createElement("div");
+    singleCell.textContent = "";
+    singleCell.style.color = "white";
+    singleCell.classList.add("bg-red")
+    singleCell.background = "black";
+    singleCell.addEventListener("Click", () => {
+        alert("You clicked me!");
+    });
+    gridContainer.appendChild(singleCell);
+}
