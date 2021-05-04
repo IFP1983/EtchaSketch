@@ -12,3 +12,5 @@ for(let i = 0;i<numOfCells;i++) {
     });
     gridContainer.appendChild(singleCell);
 }
+
+

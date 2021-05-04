@@ -21,11 +21,12 @@
     font-family: Arial;
     font-size: 3rem;
     font-weight: bold;
-    background: white;
+    background: black;
     border: 5px solid black;
     
   }
   
   .mousedOver{
-    background-color: blue;
+    background-color: blue
   }
+  
