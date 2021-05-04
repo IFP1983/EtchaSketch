@@ -7,8 +7,8 @@ for(let i = 0;i<numOfCells;i++) {
     singleCell.style.color = "white";
     singleCell.classList.add("bg-red")
     singleCell.background = "black";
-    singleCell.addEventListener("Click", () => {
-        alert("You clicked me!");
+    singleCell.addEventListener("mouseover", () => {
+        singleCell.classList.add("mousedOver");
     });
     gridContainer.appendChild(singleCell);
 }
